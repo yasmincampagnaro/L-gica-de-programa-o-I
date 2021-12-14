@@ -1,2 +1,2 @@
 # L-gica-de-programa-o-I
-Prática do curso Lógica de programação I, realizado na escola Alura
+Prática do Curso de Lógica de programação I: Os primeiros programas com Javascript e HTML, realizado na escola Alura

@@ -1,0 +1,44 @@
+<meta charset="UTF-8"> <!-- Resolve problemas de acentuação -->
+
+<script>
+	
+	/* Função sem parâmetros */
+	function pulalinha() {
+ 		document.write("<br>");
+ 		document.write("<br>");
+ }
+	/* Nosso objetivo é que 'mostra()' faça 'document.write()', que por sua vez recebe o que queremos exibir. O importante é que toda função seja declarada no início do arquivo, não importa se antes ou depois de 'pulaLinha()'. Primeiro declararemos a função e o nome, em seguida, determinaremos o que ela fará. Escolheremos um nome aleatório para inserir, por exemplo "batata". Quando 'mostra()' receber um parâmetro, ele será enviado para dentro da variável batata. Ao chegar nessa instrução, o JS interpretará como se batata fosse igual à frase que queremos exibir.
+	O parâmetro da função é considerado como se fosse uma variável. No caso, batata recebe o que está sendo passado no programa, em 'mostra()'.
+	
+	Ao chamar a função 'mostra()', o JavaScript pegará o resultado da concatenação e interpretará como se batata fosse igual a isto. Para o JavaScript, batata será igual a frase dentro da função, e com isso conseguimos passar parâmetros para uma função.*/
+
+ 	/* Função com parâmetros; 'batata' é o parâmetro da função */
+	 
+ 	function mostra(batata) {
+
+ 		document.write(batata);
+ }
+
+
+
+var ano = 2016
+
+
+mostra("Flavio tem " + (ano - 1977) + " anos");
+
+ pulalinha();
+
+
+mostra("Joaquim tem " + (ano -1996) + " anos");
+
+pulalinha();
+
+ano = 2017
+
+mostra("Barney tem " + (ano - 1976) + " anos");
+
+pulalinha();
+
+mostra("Fala gurizada, tudo sussa?");
+
+</script>

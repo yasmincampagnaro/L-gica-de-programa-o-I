@@ -1,0 +1,27 @@
+<meta charset="UTF-8"> <!-- Resolve problemas de acentuação -->
+
+<script>
+
+
+	function pulalinha() {
+ 		document.write("<br>");
+ 		document.write("<br>");
+ }
+
+ 	function mostra(frase) {
+
+ 		document.write(frase);
+ 		pulalinha();
+ }
+
+ 	function calculaImc(peso, altura){
+
+ 		var imc = peso / (altura * altura);
+ 		mostra("O imc calculado é " + imc);
+ 	}
+	 	    /* parâmetros usados para calcular o imc */
+ calculaImc(50, 1.58);
+ calculaImc(68, 1.72);
+
+
+</script> 
